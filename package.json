@@ -1,0 +1,14 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Taiwo Maja",
+  "license": "MIT",
+  "volta": {
+    "node": "17.8.0",
+    "yarn": "1.22.18"
+  },
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
