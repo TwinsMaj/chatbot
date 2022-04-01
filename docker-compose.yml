@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  chatbot:
+    build: .
+    ports:
+      - 8000:8000
+      - 9229:9229 # debugging
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    command: yarn start:dev
+    environment:
+      PORT: 8000
