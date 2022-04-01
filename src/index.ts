@@ -63,9 +63,4 @@ import { getConversationId, getRequest, getUserId, postRequest } from './rivalCl
 
 	await processConvo();
 
-})()
-
-const port = Number(process.env.PORT ?? 8000);
-app.listen(port, '0.0.0.0', () => {
-	console.log(`Server started at http://localhost:${port}`);
-});
+})();
